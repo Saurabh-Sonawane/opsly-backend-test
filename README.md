@@ -33,3 +33,31 @@ This should be a quick little task, but the client is paying us A Billion dollar
 Don't forget to `git push` regularly.
 
 Have fun!
+
+
+
+## Pre-requisite for apllication
+JDK 8
+
+Gradle 6 or above (If you don't have gradle installed its okay we have gradlew utility for you)
+
+
+## How to build and deploy application
+I have used gradle and added gradlew package in repo, You can use following command to build application
+
+```
+./gradlew clean build
+```
+
+## How to run application
+
+```
+java -jar build/libs/opsly-backend-test-1.0-SNAPSHOT.jar
+```
+
+## How to verify 
+Just need to run following command
+
+```
+curl localhost:3000
+```
